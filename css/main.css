@@ -1,0 +1,494 @@
+html, body {
+    position: relative;
+    height: 100%;
+}
+body {
+    background: #eee;
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    color:#000;
+    margin: 0;
+    padding: 0;
+}
+.swiper-container {
+    width: 100%;
+    height: 100%;
+}
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+
+    /* Center slide text vertically */
+    /*display: -webkit-box;*/
+    /*display: -ms-flexbox;*/
+    /*display: -webkit-flex;*/
+    /*display: flex;*/
+    /*-webkit-box-pack: center;*/
+    /*-ms-flex-pack: center;*/
+    /*-webkit-justify-content: center;*/
+    /*justify-content: center;*/
+    /*-webkit-box-align: center;*/
+    /*-ms-flex-align: center;*/
+    /*-webkit-align-items: center;*/
+    /*align-items: center;*/
+}
+
+/*音乐开始*/
+.music{
+    position: fixed;
+    right: 1%;
+    top:1%;
+    z-index: 9;
+}
+.music .musicimg{
+  width: 44px ;
+  height: 44px;
+    margin: auto;
+    display: block;
+    animation: xuanzhuan 2s linear infinite;
+}
+@keyframes xuanzhuan {
+    100%{
+        transform: rotate(360deg);
+    }
+}
+/*音乐结束*/
+
+/*第一屏开始*/
+.swiper-slide.one{
+    background: url("../img/bg1.png");
+    background-size: 100% 100%;
+}
+.swiper-slide.one .one-top{
+    width: 80%;
+    height: 20%;
+    margin: auto;
+    margin-top: 15%;
+    font-size: 6vw;
+    position: relative;
+}
+.swiper-slide.one .one-top .one-t-1,.one-t-2{
+    position: absolute;
+    width: 75%;
+}
+.swiper-slide.one .one-top .one-t-1{
+    color: rgb(230, 157, 198);
+    right:0;
+}
+.swiper-slide.one .one-top .one-t-2{
+    left: 0;
+    top:24%;
+    color: rgb(90, 165, 217);
+}
+.swiper-slide.one .one-top span{
+    margin: 0 2%;
+}
+.swiper-slide.one .one-top img{
+    width: 35%;
+    vertical-align: middle;
+}
+.swiper-slide.one .one-top .o-t-smll{
+    width: 7%;
+}
+.swiper-slide.one .one-center{
+    width: 80%;
+    height: 42%;
+    margin: auto;
+    position: relative;
+    margin-top: -6%;
+}
+.swiper-slide.one .one-center img{
+    width: 100%;
+}
+.swiper-slide.one .one-center .one-c-p{
+     margin-top: 8%;
+ }
+.swiper-slide.one .one-center p{
+    margin: 0;
+
+}
+
+.swiper-slide.one .one-center .one-c-1{
+    position: absolute;
+    top: 0;
+    left: 32%;
+    font-size: 6vw;
+    color: rgb(255, 255, 255);
+    font-family: "微软雅黑";
+    font-weight: 700;
+}
+.swiper-slide.one .one-center .one-c-2{
+    position: absolute;
+    top: 36%;
+    left: 31.33%;
+    font-size: 7.5vw;
+    color: rgb(255, 255, 255);
+
+}
+.swiper-slide.one .one-center .one-c-2p{
+    font-family: "迷你简菱心";
+    font-size: 10vw;
+}
+.swiper-slide.one .one-center .one-c-3 .one-sanjiao{
+    position: absolute;
+    bottom: 15%;
+    width: 17%;
+    left: 41.5%;
+}
+.swiper-slide.one .one-bottom .one-b-1{
+    margin: 0 auto;
+    width: 60%;
+    border:6px solid #a1c5ea;
+    background: #ffffff;
+    margin-top: 6%;
+}
+.swiper-slide.one .one-bottom{
+    margin-top: 12%;
+}
+.swiper-slide.one .one-bottom .one-b-1 p{
+    margin: 2% 0;
+}
+/*第一屏结束*/
+/*第二屏开始*/
+.swiper-slide.two{
+    background: url("../img/bg2.png");
+    background-size: 100% 100%;
+}
+.swiper-slide.two .two-top{
+    width: 80%;
+    height: 20%;
+    margin: auto;
+    margin-top: 15%;
+    font-size: 6vw;
+    position: relative;
+}
+.swiper-slide.two .two-top .two-t-1,.two-t-2{
+    position: absolute;
+    width: 75%;
+}
+.swiper-slide.two .two-top .two-t-1{
+    color: rgb(230, 157, 198);
+    right:0;
+}
+.swiper-slide.two .two-top .two-t-2{
+    left: 0;
+    top:24%;
+    color: rgb(90, 165, 217);
+}
+.swiper-slide.two .two-top img{
+    width: 35%;
+    vertical-align: middle;
+}
+.swiper-slide.two .two-top .o-t-smll{
+    width: 7%;
+}
+.swiper-slide.two .two-center{
+    width: 80%;
+    border:6px solid #e69dc6;
+    font-size: 4.8vw;
+    margin: 0 auto;
+    text-align:center;
+    padding: 1%;
+    line-height: 1.5em;
+    margin-top: -6%;
+}
+.swiper-slide.two .two-c{
+    border:6px solid #a0c5ea;
+    padding:3% 2%;
+    background: rgba(255,255,255,0.8);
+}
+.swiper-slide.two .two-c p{
+    margin: 0;
+    text-indent: 2em;
+}
+/*第二屏结束*/
+/*第三屏开始*/
+.swiper-slide.three{
+    background: url("../img/bg3.png");
+    background-size: 100% 100%;
+}
+.swiper-slide.three .three-top{
+    width: 80%;
+    height: 20%;
+    margin: auto;
+    margin-top: 15%;
+    font-size: 6vw;
+    position: relative;
+}
+.swiper-slide.three .three-top .three-t-1,.three-t-2{
+    position: absolute;
+    width: 75%;
+}
+.swiper-slide.three .three-top .three-t-1{
+    color: rgb(230, 157, 198);
+    right:0;
+}
+.swiper-slide.three .three-top .three-t-2{
+    left: 0;
+    top:24%;
+    color: rgb(90, 165, 217);
+}
+.swiper-slide.three .three-top img{
+    width: 35%;
+    vertical-align: middle;
+}
+.swiper-slide.three .three-top .o-t-smll{
+    width: 7%;
+}
+.swiper-slide.three .three-center{
+    width: 80%;
+    margin: 0 auto;
+    height: 70%;
+    font-size: 4.2vw;
+}
+.swiper-slide.three .three-center .three-c-1,.three-c-2{
+    position: relative;
+    width: 100%;
+    height: 27%;
+ }
+.swiper-slide.three .three-center .three-c-2{
+    margin-top: 35%;
+}
+.swiper-slide.three .three-center .threeimg{
+    width: 74%;
+}
+.swiper-slide.three .three-center .three-c-1 .three-c-text{
+    width: 68%;
+    border: 5px solid #88b6e5;
+    height: 100%;
+    padding-top: 2%;
+    font-size: 3.7vw;
+    text-align: left;
+    padding-left: 4%;
+}
+.swiper-slide.three .three-center .three-c-2 .three-c-text{
+    width: 68%;
+    border: 5px solid #e69dc6;
+    height: 100%;
+    padding-top: 2%;
+    float: right;
+    font-size: 3.7vw;
+    text-align: left ;
+    padding-right: 4%;
+}
+.swiper-slide.three .three-center .three-img{
+    width: 90%;
+    position: absolute;
+    top: 38%;
+    left: 24%;
+
+}
+.swiper-slide.three .three-center .three-c-2 .three-img{
+    left: -17%;
+}
+.swiper-slide.three .three-center .three-text{
+    width: 45%;
+
+}
+.swiper-slide.three .three-center .three-c-2 .three-text{
+    float: right;
+}
+.swiper-slide.three .three-center .three-text p{
+    margin: 0;
+}
+/*第三屏结束*/
+/*第四屏开始*/
+.swiper-slide.four{
+    background: url("../img/bg2.png");
+    background-size:100% 100% ;
+}
+.swiper-slide.four .four-top{
+    width: 80%;
+    height: 20%;
+    margin: auto;
+    margin-top: 15%;
+    font-size: 6vw;
+    position: relative;
+}
+.swiper-slide.four .four-top .four-t-1,.four-t-2{
+    position: absolute;
+    width: 75%;
+}
+.swiper-slide.four .four-top .four-t-1{
+    color: rgb(230, 157, 198);
+    right:0;
+}
+.swiper-slide.four .four-top .four-t-2{
+    left: 0;
+    top:24%;
+    color: rgb(90, 165, 217);
+}
+.swiper-slide.four .four-top img{
+    width: 35%;
+    vertical-align: middle;
+}
+.swiper-slide.four .four-top .o-t-smll{
+    width: 7%;
+}
+.swiper-slide.four .four-center{
+    width: 80%;
+    margin: 0 auto;
+    position: relative;
+    height: 50%;
+}
+.swiper-slide.four .four-center img{
+    width: 100%;
+    position: absolute;
+    height: 100%;
+    left: 0;
+}
+.swiper-slide.four .four-bottom{
+    position: absolute;
+    bottom: 4%;
+    font-size: 4vw;
+    text-align: left;
+    padding-left: 5%;
+}
+.swiper-slide.four .four-bottom p{
+    margin: 0;
+    margin-bottom: 4%;
+}
+/*第四屏结束*/
+/*第五屏开始*/
+.swiper-slide.five{
+    background: url("../img/bg2.png");
+    background-size:100% 100% ;
+}
+.swiper-slide.five .five-top{
+    width: 80%;
+    height: 20%;
+    margin: auto;
+    margin-top: 15%;
+    font-size: 6vw;
+    position: relative;
+}
+.swiper-slide.five .five-top .five-t-1,.five-t-2{
+    position: absolute;
+    width: 75%;
+}
+.swiper-slide.five .five-top .five-t-1{
+    color: rgb(230, 157, 198);
+    right:0;
+}
+.swiper-slide.five .five-top .five-t-2{
+    left: 0;
+    top:24%;
+    color: rgb(90, 165, 217);
+}
+.swiper-slide.five .five-top img{
+    width: 35%;
+    vertical-align: middle;
+}
+.swiper-slide.five .five-top .o-t-smll{
+    width: 7%;
+}
+.swiper-slide.five .five-center{
+    width: 80%;
+    margin: 0 auto;
+    position: relative;
+    height: 65%;
+    overflow: hidden;
+}
+.swiper-slide.five .five-left{
+    background: url("../img/ADIIABAEGAAgp7OWwAUogM7WgQIwAzjsBQ.png");
+    background-size: 50% 100%;
+    position: absolute;
+    left: 4%;
+    width: 1%;
+    height: 100%;
+}
+.swiper-slide.five .five-right{
+    margin-left: 20%;
+    padding-top: 8%;
+
+}
+.swiper-slide.five .five-right p{
+    font-size: 4vw;
+    text-align: left;
+    margin: 0;
+    margin-bottom: 20%;
+    position: relative;
+}
+.swiper-slide.five .five-right .five-smllimg{
+    width: 12%;
+    display: block;
+    /*background: url("../img/ADIIABAEGAAgtbOWwAUo0P_HnQcwIzgj.png")no-repeat;*/
+    /*background-size: 50% 50%;*/
+    position: absolute;
+    left: -23%;
+    top: 16%;
+}
+.swiper-slide.five .five-right .five-smllimg img{
+    width: 66%;
+}
+/*第五屏结束*/
+/*第六屏开始*/
+.swiper-slide.six{
+    background: url("../img/bg2.png");
+    background-size:100% 100% ;
+}
+.swiper-slide.six .six-top{
+    width: 80%;
+    height: 20%;
+    margin: auto;
+    margin-top: 15%;
+    font-size: 6vw;
+    position: relative;
+}
+.swiper-slide.six .six-top .six-t-1,.six-t-2{
+    position: absolute;
+    width: 75%;
+}
+.swiper-slide.six .six-top .six-t-1{
+    color: rgb(230, 157, 198);
+    right:0;
+}
+.swiper-slide.six .six-top .six-t-2{
+    left: 0;
+    top:24%;
+    color: rgb(90, 165, 217);
+}
+.swiper-slide.six .six-top img{
+    width: 35%;
+    vertical-align: middle;
+}
+.swiper-slide.six .six-top .o-t-smll{
+    width: 7%;
+}
+.six-center{
+    width: 80%;
+    margin: 0 auto;
+    height: 50%;
+}
+.six-center form{
+    
+}
+.six-center form input{
+    width: 75%;
+    padding: 3%;
+    margin-top: 5%;
+    
+}
+.six-center input[type="submit"]{
+    width:80%;
+    background: #8edefe;
+    border: none;
+    color: #ffffff;
+}
+
+/*.six-center input[type="text"]{
+    width: 63%;
+    height: 10%;
+    padding-left: 2%;
+    outline: none;
+    border: 1px solid #f1bee3;
+    border-radius: 5px;
+    left: 10%;
+    margin-top: 5%;
+}
+.six-center p{
+    height: 100%;
+    margin-top: 0;
+}*/
+
