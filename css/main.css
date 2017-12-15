@@ -471,7 +471,7 @@ body {
     
 }
 .six-center input[type="submit"]{
-    width:80%;
+    width:83%;
     background: #8edefe;
     border: none;
     color: #ffffff;
@@ -491,4 +491,55 @@ body {
     height: 100%;
     margin-top: 0;
 }*/
-
+/*第六屏结束*/
+/*第七屏开始*/
+.swiper-slide.seven{
+    background: url("../img/bg2.png");
+    background-size:100% 100% ;
+}
+.swiper-slide.seven .seven-top{
+    width: 80%;
+    height: 20%;
+    margin: auto;
+    margin-top: 15%;
+    font-size: 6vw;
+    position: relative;
+}
+.swiper-slide.seven .seven-top .seven-t-1,.seven-t-2{
+    position: absolute;
+    width: 75%;
+}
+.swiper-slide.seven .seven-top .seven-t-1{
+    color: rgb(230, 157, 198);
+    right:0;
+}
+.swiper-slide.seven .seven-top .seven-t-2{
+    left: 0;
+    top:24%;
+    color: rgb(90, 165, 217);
+}
+.swiper-slide.seven .seven-top img{
+    width: 35%;
+    vertical-align: middle;
+}
+.swiper-slide.seven .seven-top .o-t-smll{
+    width: 7%;
+}
+.swiper-slide.seven .imgtext{
+    width: 80%;
+    margin: 0 auto;
+}
+.swiper-slide.seven .imgtext .img-text img{
+    width: 95%;
+    margin: 0 auto;
+}
+.swiper-slide.seven .imgtext .img-text span{
+    display: block;
+    font-size: 3.5vw;
+}
+.swiper-slide.seven .imgtext .img-text{
+    width: 50%;
+    float: left;
+    margin-bottom: 2%;
+}
+/*第七屏结束*/
