@@ -134,7 +134,7 @@ body {
     position: absolute;
     bottom: 15%;
     width: 17%;
-    left: 41.5%;
+    left: 41.7%;
 }
 .swiper-slide.one .one-bottom .one-b-1{
     margin: 0 auto;
@@ -201,6 +201,7 @@ body {
 .swiper-slide.two .two-c p{
     margin: 0;
     text-indent: 2em;
+    text-align: left;
 }
 /*第二屏结束*/
 /*第三屏开始*/
