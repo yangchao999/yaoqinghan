@@ -242,6 +242,8 @@ body {
     margin: 0 auto;
     height: 70%;
     font-size: 4.2vw;
+    margin-top: -6%;
+    overflow: hidden;
 }
 .swiper-slide.three .three-center .three-c-1,.three-c-2{
     position: relative;
@@ -251,44 +253,8 @@ body {
 .swiper-slide.three .three-center .three-c-2{
     margin-top: 35%;
 }
-.swiper-slide.three .three-center .threeimg{
-    width: 74%;
-}
-.swiper-slide.three .three-center .three-c-1 .three-c-text{
-    width: 68%;
-    border: 5px solid #88b6e5;
-    height: 100%;
-    padding-top: 2%;
-    font-size: 3.7vw;
-    text-align: left;
-    padding-left: 4%;
-}
-.swiper-slide.three .three-center .three-c-2 .three-c-text{
-    width: 68%;
-    border: 5px solid #e69dc6;
-    height: 100%;
-    padding-top: 2%;
-    float: right;
-    font-size: 3.7vw;
-    text-align: left ;
-    padding-right: 4%;
-}
-.swiper-slide.three .three-center .three-img{
-    width: 90%;
-    position: absolute;
-    top: 38%;
-    left: 24%;
-
-}
-.swiper-slide.three .three-center .three-c-2 .three-img{
-    left: -17%;
-}
-.swiper-slide.three .three-center .three-text{
-    width: 45%;
-
-}
-.swiper-slide.three .three-center .three-c-2 .three-text{
-    float: right;
+.swiper-slide.three .three-center img{
+    width: 100%;
 }
 .swiper-slide.three .three-center .three-text p{
     margin: 0;
